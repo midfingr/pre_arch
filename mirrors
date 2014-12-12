@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo reflector --country Canada --sort rate -l 6 --verbose --save /etc/pacman.d/mirrorlist
+cat /etc/pacman.d/mirrorlist
