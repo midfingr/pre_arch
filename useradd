@@ -1,0 +1,1 @@
+useradd -m -g users -G adm,storage,wheel,power,audio,video -s /bin/bash midfingr
