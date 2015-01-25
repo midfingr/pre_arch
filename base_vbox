@@ -1,4 +1,4 @@
-sudo pacman -S virtualbox-guest-utils
+pacman -S virtualbox-guest-utils
 depmod -a
 modprobe -a vboxguest vboxsf vboxvideo
 string="vboxguest\nvboxsf\nvboxvideo"
