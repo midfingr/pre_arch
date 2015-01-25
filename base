@@ -1,2 +1,2 @@
 #!/bin/bash
-pacman -S ttf-dejavu alsa-utils xorg-server xorg-server-utils xorg-xinit xorg-twm xterm
+pacman -S ttf-dejavu alsa-utils xorg-server xorg-xinit xorg-twm xterm
