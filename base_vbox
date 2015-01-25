@@ -1,3 +1,4 @@
+#!/bin/bash
 pacman -S virtualbox-guest-utils
 depmod -a
 modprobe -a vboxguest vboxsf vboxvideo
