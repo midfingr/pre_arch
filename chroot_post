@@ -1,0 +1,4 @@
+#!/bin/bash
+pacman -S reflector rsync git mlocate bash-completion --noconfirm
+updatedb
+systemctl enable dhcpcd.service
