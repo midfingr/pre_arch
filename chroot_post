@@ -1,4 +1,3 @@
 #!/bin/bash
-pacman -S reflector rsync git mlocate bash-completion --noconfirm
+pacman -S reflector rsync git mlocate bash-completion wireless_tools wpa_supplicant dialog --noconfirm
 updatedb
-systemctl enable dhcpcd.service
