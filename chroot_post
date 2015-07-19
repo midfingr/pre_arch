@@ -6,4 +6,4 @@ mv /pre_arch/mirrors /usr/bin/
 mv /pre_arch/up-grub /usr/bin/
 mkdir /root/.gnupg
 mv /pre_arch/.bashrc /home/midfingr/
-chowm midfingr /home/midfingr/.bashrc
+chown midfingr /home/midfingr/.bashrc
