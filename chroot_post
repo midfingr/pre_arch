@@ -1,3 +1,9 @@
 #!/bin/bash
 pacman -S reflector rsync git mlocate bash-completion wireless_tools wpa_supplicant dialog --noconfirm
 updatedb
+mv /pre_arch/bash_root /root/.bashrc
+mv /pre_arch/mirrors /usr/bin/
+mv /pre_arch/up-grub /usr/bin/
+mkdir /root/.gnupg
+mv /pre_arch/.bashrc /home/midfingr/
+chowm midfingr /home/midfingr/.bashrc
