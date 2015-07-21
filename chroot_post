@@ -7,3 +7,5 @@ mv /pre_arch/up-grub /usr/bin/
 mkdir /root/.gnupg
 mv /pre_arch/.bashrc /home/midfingr/
 chown midfingr /home/midfingr/.bashrc
+touch /etc/vconsole.conf
+echo FONT=iso02-12x22 > /etc/vconsole.conf
