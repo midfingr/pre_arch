@@ -1,7 +1,10 @@
 #!/bin/bash
 pacman -S reflector rsync git mlocate bash-completion wireless_tools wpa_supplicant dialog --noconfirm
 updatedb
+chmod +x /pre_arch/base
 mv /pre_arch/bash_root /root/.bashrc
+chmod +x /pre_arch/mirrors
+chmod +x /pre_arch/up-grub
 mv /pre_arch/mirrors /usr/bin/
 mv /pre_arch/up-grub /usr/bin/
 mkdir /root/.gnupg
