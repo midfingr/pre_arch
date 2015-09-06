@@ -1,0 +1,14 @@
+#!/bin/bash
+cryptsetup luksFormat /dev/sdb2
+cryptsetup open --type luks /dev/sdb2 lvm
+
+pvcreate /dev/mapper/lvm
+vgcreate root /dev/mapper/lvm
+lvcreate -l +100%FREE root -n root
+
+mkfs.ext4 /dev/mapper/root-root
+mount /dev/mapper/root-root /mnt
+
+mkfs.ext2 /dev/sdb1
+mkdir /mnt/boot
+mount /dev/sdb1 /mnt/boot
