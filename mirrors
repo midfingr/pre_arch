@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo reflector --country 'Canada' -p http -f 6 -l 6 -n 24 --verbose --save /etc/pacman.d/mirrorlist
+sudo reflector --country 'United States' -p http -f 20 -l 20 -n 24 --verbose --save /etc/pacman.d/mirrorlist
 cat /etc/pacman.d/mirrorlist
