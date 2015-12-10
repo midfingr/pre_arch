@@ -3,6 +3,7 @@ pacman -S rsync git mlocate bash-completion wireless_tools wpa_supplicant dialog
 updatedb
 chmod +x /pre_arch/base
 mv /pre_arch/bash_root /root/.bashrc
+chmod +x /pre_arch/locale_us
 chmod +x /pre_arch/mirrors
 chmod +x /pre_arch/up-grub
 mv /pre_arch/mirrors /usr/bin/
