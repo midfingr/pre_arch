@@ -1,0 +1,6 @@
+#!/bin/bash
+echo en_US.UTF-8 UTF-8 >> /etc/locale.gen
+locale-gen
+locale > /etc/locale.conf
+cat /etc/locale.conf
+ln -s /usr/share/zoneinfo/Canada/Eastern /etc/localtime
