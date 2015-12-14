@@ -1,5 +1,5 @@
 #!/bin/bash
-pacman -S rsync git mlocate bash-completion wireless_tools wpa_supplicant dialog --noconfirm
+pacman -S rsync git mlocate bash-completion wireless_tools reflector wpa_supplicant dialog --noconfirm
 updatedb
 chmod +x /pre_arch/base
 mv /pre_arch/bash_root /root/.bashrc
