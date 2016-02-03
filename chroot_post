@@ -8,7 +8,6 @@ chmod +x /pre_arch/mirrors
 chmod +x /pre_arch/up-grub
 mv /pre_arch/mirrors /usr/bin/
 mv /pre_arch/up-grub /usr/bin/
-mkdir /root/.gnupg
 mv /pre_arch/.bashrc /home/midfingr/
 chown midfingr /home/midfingr/.bashrc
 touch /etc/vconsole.conf
