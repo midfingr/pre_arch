@@ -2,9 +2,9 @@
 cryptsetup -c twofish-xts-plain64 -y -s 512 luksFormat /dev/sda2
 cryptsetup open --type luks /dev/sda2 root
 
-mkfs.ex4 /dev/mapper/root
+mkfs.ext4 /dev/mapper/root
 mount /dev/mapper/root /mnt
 
-mkfs.ex4 /dev/sda1
+mkfs.ext4 /dev/sda1
 mkdir /mnt/boot
 mount /dev/sdb1 /mnt/boot
