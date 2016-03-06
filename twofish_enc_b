@@ -1,5 +1,5 @@
 #!/bin/bash
-cryptsetup -c twofish-xts-plain64 -y -s 512 luksFormat /dev/sdb1
+cryptsetup -c twofish-xts-plain64 -y -s 512 luksFormat /dev/sdb2
 cryptsetup open --type luks /dev/sdb2 root
 
 mkfs.ex4 /dev/mapper/root
