@@ -1,3 +1,5 @@
 #!/bin/bash
 pacman -S virtualbox-guest-utils
 pacman -S virtualbox-guest-dkms
+pacman -S linux-headers
+systemctl enable vboxservice
