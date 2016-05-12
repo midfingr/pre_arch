@@ -1,4 +1,4 @@
 #!/bin/bash
-pacman -S linux-headers
+pacman -S virtualbox-guest-modules-arch
 pacman -S virtualbox-guest-utils
 systemctl enable vboxservice
