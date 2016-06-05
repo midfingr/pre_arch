@@ -1,3 +1,2 @@
 #!/bin/bash
 pacman -S virtualbox-guest-utils
-pacman -S virtualbox-guest-modules-arch
